@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Flix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<header>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="Index.html">Porque sua jornada de entretenimento merece ser extraordinária.</a>
+                <a href="Index.html"> X-FLIX - Onde Cada Cena É Uma História..</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <img src="logonaty.png.jpg" href="Index.html" id="logo" width="200vw" height="200vh">
+
+    <div class="container">
+
+        <div class="left-div">
+            <img src="openheimer.jpg" width="250px" height="300px">
+            <p id="cafés">Openheimer</p>                      
+            <button class="botaoAssistir" data-link="https://youtu.be/F3OxA9Cz17A?si=IE_XAyFbdIao08Cx">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="middle-div">
+            <img src="johnWick.jpg" width="250px" height="300px">
+            <p id="cafés">John Wick 4</p>                      
+            <button class="botaoAssistir" data-link="https://youtu.be/gZtmzT9Wgrw?si=bs3Ow13yRcggOlk5">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="right-div">
+            <img src="som-da-liberdade.jpg" width="250px" height="300px">
+            <p id="cafés">Som da Liberdade</p>    
+            <button class="botaoAssistir" data-link=" https://youtu.be/Wx4lSM5o0qY?si=ynDgD6XIMW07jQDy">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="left-div">
+            <img src="SPIDER NO WAY HOME.jpeg" width="250px" height="300px">
+            <p id="cafés">Homem Aranha:</p>
+            <p id="cafés">Sem Volta para Casa</p>                      
+            <button class="botaoAssistir" data-link="https://youtu.be/CyiiEJRZjSU?si=HlfaeVynSJPfW2tN">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="middle-div">
+            <img src="asmarvels.jpg" width="250px" height="320px">
+            <p id="cafés">As Marvles</p>
+            <button class="botaoAssistir" data-link="https://youtu.be/YxL9wTkEgSY?si=9rohucrBUxAO0e6v">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>                      
+        </div>
+
+        <div class="right-div">
+            <img src="barbie.jpg" width="250px" height="320px">
+            <p id="cafés">Barbie</p>
+            <button class="botaoAssistir" data-link="https://youtu.be/Ujs1Ud7k49M?si=OiEC-AuYZ9RNWpD0">Assistir</button>
+            <script>
+                var botoes = document.querySelectorAll(".botaoAssistir");
+                botoes.forEach(function(botao) {
+                    botao.addEventListener("click", function() {
+                        var link = botao.getAttribute("data-link");
+                        window.location.href = link;
+                    });
+                });
+            </script>                          
+        </div>
+
+    </div>
+
+</body>    
+
+<footer>  
+    <div class="footer_copyright">
+        &#169
+        2023 all rights reserved
+    </div>
+</footer>
+
+</html>
